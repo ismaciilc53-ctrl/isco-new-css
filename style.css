@@ -12,10 +12,13 @@ h2 {
 }
 
 table {
-  width: 85%;
+  width: 100%;
+  min-width: 600px; 
   border-collapse: collapse;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: white;
+  overflow-x: auto;
+  margin: 20px 0;
 }
 
 th {
