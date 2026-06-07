@@ -65,3 +65,19 @@ tr:hover {
 th:hover {
   background-color: #0056b3;
 }
+@media (max-width:768px){
+  body(
+    padding:10px;
+}
+h1{
+  font-size:22px;
+}
+th,td{
+  padding:10px;
+  font-size:14px;
+}
+edit-btn,
+delete-btn{
+  padding:8px 12px;
+  font-size:12px;
+}  
